@@ -1,0 +1,174 @@
+/*Alto fijo para imagen de logo del encabezado*/
+header div img {
+    height: 65px;
+}
+
+/*Centrado de contenido del header*/
+header div {
+    text-align: center;
+}
+/*Ancho del 90% en la línea*/
+header div hr {
+    width: 90%;
+}
+
+header div nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+header div nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header div nav ul li a {
+    display: block;
+    padding: 10px; 
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: #F09A99;
+    border-radius: 10px;
+    color: black;
+}
+
+/*Estilos para slider de imagenes*/
+
+.slider-container {
+    font-family: sans-serif;
+    margin: auto;
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.slider-container>ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slider-container>ul.slider {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 300px;
+}
+
+
+.slider-container>ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background: #fff;
+}
+
+.slider-container>ul.slider li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.slider-container>ul.slider li:first-child {
+    opacity: 1;
+    /*Mostramos el primer <li>*/
+}
+
+.slider-container>ul.slider li:target {
+    opacity: 1;
+    /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.slider-container>.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+.slider-container>.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.slider-container>.menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+/*Estilo de sección de colecciones*/
+.coleccion {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.coleccion img {
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.coleccion a {
+    text-decoration: none;
+    color: black;
+    background-color: #F09A99;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+/*Estilos footer*/
+.logoFooter {
+    height: 40px;
+}
+
+.footer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.seccionLinks {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    border: #D9D9D9 solid;
+    border-top-left-radius: 100px;
+    background-color: #D9D9D9;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccionLinks .colBotones a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+.seccionLinks .colBotones ul li {
+    margin-bottom: 5px;
+}
+
+.colRedes .redesSociales img {
+    height: 30px;
+    margin-left: 15px;
+    filter: invert(79%) sepia(74%) saturate(801%) hue-rotate(298deg) brightness(102%) contrast(86%);
+}
+
+.colLogo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
