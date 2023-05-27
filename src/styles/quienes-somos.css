@@ -32,6 +32,81 @@ header div nav ul li a {
     border-radius: 10px;
     color: black;
 }
+.botones-navegacion {
+    display: block;
+    padding: 10px; 
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: #F09A99;
+    border-radius: 10px;
+    color: black;
+}
+ul {
+  list-style: none;  
+}
+
+/*Estilos footer*/
+.logoFooter {
+    height: 40px;
+}
+
+.footer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.seccionLinks {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    border: #D9D9D9 solid;
+    border-top-left-radius: 100px;
+    background-color: #D9D9D9;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccionLinks .colBotones a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+.seccionLinks .colBotones ul li {
+    margin-bottom: 5px;
+}
+
+.colRedes .redesSociales img {
+    height: 30px;
+    margin-left: 15px;
+    filter: invert(79%) sepia(74%) saturate(801%) hue-rotate(298deg) brightness(102%) contrast(86%);
+}
+
+.colLogo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.headerTitle {
+    height: 70px;
+    width: 100%;
+    background-image: url(/public/img/coleccion.jpg);
+    background-position: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.headerTitle div {
+    background-color: #F1E9DC;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 ul {
   list-style: none;  
