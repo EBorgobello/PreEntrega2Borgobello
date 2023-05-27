@@ -1,7 +1,4 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-    /*Alto fijo para imagen de logo del encabezado*/
+/*Alto fijo para imagen de logo del encabezado*/
 header div img {
     height: 65px;
 }
@@ -27,6 +24,15 @@ header div nav ul li {
 }
 
 header div nav ul li a {
+    display: block;
+    padding: 10px; 
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: #F09A99;
+    border-radius: 10px;
+    color: black;
+}
+.botones-navegacion {
     display: block;
     padding: 10px; 
     margin-right: 40px;
@@ -113,11 +119,11 @@ input {
 textarea {
     border:#F09A99 solid 1.5px;
     width: 100%;
+    height: 150px;
 }
 
 main {
     text-align: left;
-    margin-left: 35%;
 }
 
 main a {
@@ -129,7 +135,11 @@ main a {
     float: right;
 }
 
-table {
-    margin-bottom: 30px;
-    border-spacing: 10px;
+form {
+    width: 50%;
+    margin-left: 30%;
+}
+
+.form-control {
+    border:#F09A99 solid 1.5px;
 }
