@@ -12,17 +12,6 @@ header div hr {
     width: 90%;
 }
 
-header div nav ul {
-    list-style: none;
-    display: inline-block;
-}
-
-header div nav ul li {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
 .botones-navegacion {
     display: block;
     padding: 10px; 
@@ -39,81 +28,6 @@ header div nav ul li {
 
 .imagen-ancho {
     width: 60%;
-}
-/*Estilos para slider de imagenes*/
-
-.slider-container {
-    font-family: sans-serif;
-    margin: auto;
-    background-color: white;
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.slider-container>ul,
-li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.slider-container>ul.slider {
-    position: relative;
-    max-width: 800px;
-    width: 100%;
-    height: 300px;
-}
-
-
-.slider-container>ul.slider li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
-    background: #fff;
-}
-
-.slider-container>ul.slider li img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-.slider-container>ul.slider li:first-child {
-    opacity: 1;
-    /*Mostramos el primer <li>*/
-}
-
-.slider-container>ul.slider li:target {
-    opacity: 1;
-    /*Mostramos el <li> del enlace que pulsemos*/
-}
-
-.slider-container>.menu {
-    text-align: center;
-    margin: 20px;
-}
-
-.slider-container>.menu li {
-    display: inline-block;
-    text-align: center;
-}
-
-.slider-container>.menu li a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    background-color: grey;
-    padding: 10px;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    border-radius: 100%;
 }
 
 /*Estilo de sección de colecciones*/
@@ -178,4 +92,8 @@ li {
 .colLogo {
     margin-top: 50px;
     margin-left: 50px;
+}
+
+footer ul li {
+    list-style: none;
 }
