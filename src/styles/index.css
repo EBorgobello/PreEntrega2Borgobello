@@ -23,7 +23,7 @@ header div nav ul li {
     font-size: 20px;
 }
 
-header div nav ul li a {
+.botones-navegacion {
     display: block;
     padding: 10px; 
     margin-right: 40px;
@@ -33,6 +33,13 @@ header div nav ul li a {
     color: black;
 }
 
+.seccionBody {
+    margin-top: 20px;
+}
+
+.imagen-ancho {
+    width: 60%;
+}
 /*Estilos para slider de imagenes*/
 
 .slider-container {
@@ -112,7 +119,7 @@ li {
 /*Estilo de sección de colecciones*/
 .coleccion {
     text-align: center;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .coleccion img {
@@ -120,7 +127,7 @@ li {
     margin-bottom: 40px;
 }
 
-.coleccion a {
+.link-a-coleccion {
     text-decoration: none;
     color: black;
     background-color: #F09A99;
