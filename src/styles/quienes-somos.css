@@ -156,25 +156,6 @@ ul {
     margin-left: 50px;
 }
 
-.headerTitle {
-    height: 70px;
-    width: 100%;
-    background-image: url(/public/img/coleccion.jpg);
-    background-position: center;
-    text-align: center;
-    position: relative;
-    margin-bottom: 50px;
-}
-
-.headerTitle div {
-    background-color: #F1E9DC;
-    width: 100%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .somos {
     font-family: Arial, Helvetica, sans-serif;
     width: 80%;
