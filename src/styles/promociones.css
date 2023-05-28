@@ -128,3 +128,8 @@ td span {
 table {
     border-spacing: 60px;
 }
+@media only screen and (max-width: 797px) {
+    footer {
+        display: none;
+    }
+}
