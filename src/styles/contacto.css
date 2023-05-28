@@ -93,7 +93,7 @@ ul {
 .headerTitle {
     height: 70px;
     width: 100%;
-    background-image: url(/public/img/coleccion.jpg);
+    background-image: url(../../public/img/coleccion.jpg);
     background-position: center;
     text-align: center;
     position: relative;
