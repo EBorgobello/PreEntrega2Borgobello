@@ -136,3 +136,23 @@ main {
 .padding-colecciones {
     padding: 0;
 }
+@media only screen and (max-width: 797px) {
+    footer {
+        display: none;
+    }
+
+    .group img {
+        height: 300px;
+    }
+
+    .container .row .col {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 990px) {
+
+    .group img {
+        height: 300px;
+    }
+}

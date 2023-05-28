@@ -143,3 +143,9 @@ form {
 .form-control {
     border:#F09A99 solid 1.5px;
 }
+
+@media only screen and (max-width: 797px) {
+    footer {
+        display: none;
+    }
+}
